@@ -20,4 +20,10 @@ You can backup your databases as `*.gz` files or the `*.sql` files as indicated 
 
 Of course you need to `chmod` the scripts first.
 
+---
+
+### 参考/references
+
+http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/Back-up-MySQL-Databases-with-a-Simple-Bash-Script
+
 
