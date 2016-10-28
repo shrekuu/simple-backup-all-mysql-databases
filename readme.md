@@ -10,7 +10,7 @@
 
 ---
 
-### Backup all user created database to current directory which name is current datetime(format example:2016-10-28-21:23)
+### Backup all user-created databases to a directory which name is current datetime(format example:2016-10-28-21:23)
 
 You need to enter MySQL credentials for the `interactive` versions.
 
