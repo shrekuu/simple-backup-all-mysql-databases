@@ -40,6 +40,7 @@ do
 
     if [ "$DUMP" == "yes" ]; then # If value of DUMP is "yes" then backup database
         FILE="$BACKUPDIR/$NOW-$db.sql";
-        mysqldump --add-drop-database -u $MUSER -p$MPASS $db > $FILE
+		echo "BACKING UP $db";
+		mysqldump --add-drop-database -u $MUSER -p$MPASS $db > "$FILE"
     fi
 done
