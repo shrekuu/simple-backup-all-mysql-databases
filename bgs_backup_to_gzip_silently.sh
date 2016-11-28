@@ -23,7 +23,7 @@ if [ ! -d $BACKUPDIR ]; then
 fi
 
 # SET DATE AND TIME FOR THE FILE
-NOW=`date +"%Y-%m-%d-%H:%M"`; # format 'Y-m-d_H:M'
+NOW=`date +"%Y-%m-%d_%H-%M"`; # format 'Y-m-d_H-M'
 
 # start to dump database one by one
 for db in $DBS
