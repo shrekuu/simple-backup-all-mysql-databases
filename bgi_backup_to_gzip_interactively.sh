@@ -33,7 +33,7 @@ performance_schema
 DBS="$(mysql -u $MUSER -p$MPASS -Bse 'show databases')"
 
 # create today' backup dir if not existed
-BACKUPDIR=`date +"%Y-%m-%d-%H:%M"`;
+BACKUPDIR=`date +"%Y-%m-%d_%H-%M"`;
 if [ ! -d $BACKUPDIR ]; then
   mkdir -p $BACKUPDIR
 fi
