@@ -1,4 +1,4 @@
-### 备份所有用户创建的数据库到以当前时间(精确到分钟, 示例:2016-10-28-21:23)命名的文件夹里 
+### 备份所有用户创建的数据库到以当前时间(精确到分钟, 示例:2016-10-28_21-23)命名的文件夹里 
 
 交互版要输入 MySQL 用户名与密码.
 
@@ -10,7 +10,7 @@
 
 ---
 
-### Backup all user-created databases to a directory named by current datetime(format example:2016-10-28-21:23)
+### Backup all user-created databases to a directory named by current datetime(format example:2016-10-28_21-23)
 
 You need to enter MySQL credentials for the `interactive` versions.
 
